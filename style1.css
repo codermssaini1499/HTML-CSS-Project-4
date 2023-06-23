@@ -1,0 +1,27 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* element selector */
+h1 {
+  color: #455;
+  text-align: center;
+  
+}
+/* class selector */
+p{
+    color: #4888;
+}
+.hello{
+    font-size: 50px;
+}
+/* id selector */
+#id1{
+    color: blue;
+    background-color: aqua;
+}
+/* selector list */
+.class1 , .class5 , .class 7 {
+
+}

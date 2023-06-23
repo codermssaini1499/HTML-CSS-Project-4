@@ -1,0 +1,25 @@
+/* descending selector */
+main p {
+    color: #253;
+}
+/* child selector */
+h1 > p {
+    color: blue;
+}
+/* adjustm sibling */
+ /* section + p {
+    color:#6854 ;
+ } */
+ /* general sibling */
+
+ section ~ p {
+    color:rgba(94, 247, 18, 0.267) ;
+ }
+ /* attribute selectors */
+[ target="_blank"] {
+color: aquamarine;
+text-decoration: none;
+}
+[ alt=" pw skill"] {
+    background-color: black ;
+}

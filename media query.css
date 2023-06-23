@@ -1,0 +1,49 @@
+body {
+    background-color: red;
+}
+div {
+    font-size: x-large;
+    text-align: center;
+}
+div::after {
+    content: "welcome to demo"
+}
+@media (max-width: 400px) 
+{
+    body {
+        background-color: aliceblue;
+       
+    }
+    div::after {
+        content: "very small"
+    }
+}
+@media (min-width: 400) and ( max-width: 768px) {
+    body {
+        background-color: yellowgreen;
+    }
+    div::after {
+        content: " mid size"
+    }
+}
+@media( min-width: 768px) and ( max-width: 900px) {
+    /* if view port is atleast 900px then style will apply */
+    body {
+        background-color: aquamarine;
+
+    }
+    div::after {
+        content: " wow its working"
+    }
+}
+@media( min-width: 900px) {
+    /* if view port is atleast 900px then style will apply */
+    body {
+        background-color: yellow;
+
+    }
+    div::after {
+        content: " wow its working"
+    }
+}
+   

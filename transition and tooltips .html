@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition and tooltips</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(53, 161, 98);
+            /* transition: width 2s, height 3s, color 5s; */
+            transition: height 3s;
+            /* transition-timing-function: ease-out; */
+            transition-delay: 3s;
+        }
+        div:hover {
+            /* width: 400px; */
+            height: 400px;
+            /* background-color: red; */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- transition and tooltips -->
+    <div></div>
+    <!-- tooltips -->
+    <p title=" mahesh singh saini">Lorem ipsum dolor sit amet.</p>
+    
+</body>
+</html>

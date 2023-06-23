@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../web devlopment"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pw skill"
+	}
+}

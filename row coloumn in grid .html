@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .main{
+width: 85%;
+border: 3px solid #a50f0f;
+margin: 50px auto;
+border-radius: 5px;
+display: grid;
+grid-template-rows: 150px 150px 150px ;
+grid-template-columns: 1fr 1fr 1fr ;
+}
+.box1{
+background-color: #bda7a7;
+grid-column: 1/-1;
+border: 2px solid red;
+border-radius: 5px;
+}
+
+.box2{
+background-color: #bda7a7;
+border: 2px solid red;
+border-radius: 5px;
+}
+.box3{
+background-color: #bda7a7;
+border: 2px solid red;
+border-radius: 5px;
+}
+.box4{
+background-color: #bda7a7;
+/* grid-column: 1/-1; */
+border: 2px solid red;
+border-radius: 5px;
+}
+.box5{
+background-color: #bda7a7;
+grid-column: 1/-1;
+border: 2px solid red;
+border-radius: 5px;
+}
+h3{
+margin-left: 1rem;
+margin-top: 2rem;
+color: red;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box box1"> <h1> HEADER</h1></div>
+        <div class="box box2"><h1>aside</h1></div>
+        <div class="box box3"> <h1>content</h1></div>
+        <div class="box box4"> <h1>sidebar</h1></div>
+        <div class="box box5"> <h1>footer</h1></div>
+       
+            
+    </div>
+       
+
+
+
+
+
+    
+
+    
+</body>
+</html>
